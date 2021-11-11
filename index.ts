@@ -1,4 +1,4 @@
 import * as promptSync from 'prompt-sync';
 const prompt = promptSync();
-let text: string = 'hi';
-console.log(text);
+let answer: string = prompt('Hello, what is your name? ');
+console.log('Your name is ', answer);
